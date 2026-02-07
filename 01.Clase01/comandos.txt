@@ -1,0 +1,17 @@
+conda create -n clase01
+
+conda activate clase01
+
+conda update -n base - defaults conda
+
+conda config --env --add channels conda-forge
+
+conda config --env --set channel_priority strict
+
+conda install scipy
+
+conda install pandas
+
+conda install -c conda-forge jupyterlab
+
+jupyter-lab
